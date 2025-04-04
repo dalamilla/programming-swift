@@ -23,7 +23,7 @@ public class Euler004 {
     return listOfPalindromes.max() ?? 0
   }
 
-  /** Helper function for fourth Euler problem. */
+  /// Helper function for fourth Euler problem.
   static func pow(base: Int, exponent: Int) -> Int {
     if exponent != 0 {
       return base * pow(base: base, exponent: exponent - 1)
@@ -32,7 +32,7 @@ public class Euler004 {
     }
   }
 
-  /** Helper function for fourth Euler problem. */
+  /// Helper function for fourth Euler problem.
   static func isPalindrome(n: Int) -> Bool {
     return String(n) == String(String(n).reversed())
   }
