@@ -6,3 +6,10 @@ DerivedData/
 .swiftpm/configuration/registries.json
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 .netrc
+
+# vapor
+*.xcodeproj
+db.sqlite
+.env
+.env.*
+!.env.example
